@@ -22,6 +22,7 @@ public class Contador {
                 System.out.println(exception.getMessage());
             }
         }
+        //validando os campos int para receber comente numeros//
         catch (InputMismatchException e) {
                 System.out.println(" Digite um número inteiro válido :");
             }
